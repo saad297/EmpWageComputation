@@ -39,11 +39,11 @@ do
         ((DAY++))
 done
 
-echo "Daily wage	Total wage "
+echo "Day Number	Daily wage	Total wage "
 
 for (( i=1;i<$DAY;i++ ))
 do
 
-        echo "${dailywage[Day $i]}		${totalwage[Day $i]}"
+        echo "Day $i		${dailywage[Day $i]}		${totalwage[Day $i]}"
 
 done
